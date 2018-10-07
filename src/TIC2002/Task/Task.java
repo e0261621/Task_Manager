@@ -1,8 +1,13 @@
-package tic2002.task;
+package TIC2002.Task;
 
 public class Task {
     protected String description;
     protected boolean isDone;
+
+    public Task(String description) {
+        this.description = description;
+        this.isDone = false;
+    }
 
     public String getDescription() {
         return description;
@@ -12,10 +17,7 @@ public class Task {
         this.description = description;
     }
 
-    public Task(String description) {
-        this.description = description;
-        this.isDone = false;
-    }
+
 
     public boolean isIsDone() {
         return this.isDone;

@@ -1,4 +1,4 @@
-package tic2002.test;
+package TIC2002.test;
 
 import java.io.File;
 import java.io.FileWriter;

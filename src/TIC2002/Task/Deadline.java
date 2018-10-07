@@ -1,4 +1,4 @@
-package tic2002.task;
+package TIC2002.Task;
 
 public class Deadline extends Todo {
     private String deadLine;
