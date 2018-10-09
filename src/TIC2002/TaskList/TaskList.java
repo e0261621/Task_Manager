@@ -20,5 +20,11 @@ public class TaskList {
     public TaskList(List<Task> tasks) {
         this.tasks = tasks;
     }
-    public
+
+    public String getDescription() {
+        String tasksDescription = "";
+        for (Task t : tasks) {
+            if()
+        }
+    }
 }

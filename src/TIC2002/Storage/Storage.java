@@ -18,7 +18,7 @@ public class Storage {
 
     public static TaskList load(String filePath) throws FileNotFoundException{
         TaskList tasks = null;
-        List<String> lines = new ArrayList<String>();
+        List<String> lines = new ArrayList<>();
         File f = new File(filePath); // create a File for the given file path
         Scanner s = new Scanner(f); // create a Scanner using the File as the source
         while (s.hasNext()) {
