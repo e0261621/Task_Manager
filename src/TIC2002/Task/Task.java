@@ -1,6 +1,6 @@
 package TIC2002.Task;
 
-public class Task {
+public abstract class Task {
     protected String description;
     protected boolean isDone;
 
@@ -18,7 +18,6 @@ public class Task {
     }
 
 
-
     public boolean isIsDone() {
         return this.isDone;
     }
@@ -26,7 +25,6 @@ public class Task {
     public void setDone(boolean isDone) {
         this.isDone = isDone;
     }
-
 
     public String toString() {
         return String.format("description: %s\n", this.getDescription());

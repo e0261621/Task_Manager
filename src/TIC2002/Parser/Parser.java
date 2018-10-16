@@ -1,5 +1,7 @@
 package TIC2002.Parser;
 
+import TIC2002.Task.Todo;
+
 /**
  * public static getCommandWord(String fullCommand): Returns a the command word i.e., the first word of the given fullCommand
  * e.g., Parser.getCommandWord("todo read book") "todo"
@@ -17,8 +19,9 @@ public class Parser {
         return command;
     }
 
-    public static TIC2002.Task.Todo createTodo(String description) {
-
+    public static Todo createTodo(String description) {
+        Todo t = null;
+        return t;
     }
 
 

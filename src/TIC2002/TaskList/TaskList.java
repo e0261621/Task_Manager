@@ -24,7 +24,12 @@ public class TaskList {
     public String getDescription() {
         String tasksDescription = "";
         for (Task t : tasks) {
-            if()
+            tasksDescription += t.getDescription() + "|";
         }
+        return tasksDescription;
+    }
+
+    public List<Task> getTasks() {
+        return this.tasks;
     }
 }

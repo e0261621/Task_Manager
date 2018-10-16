@@ -121,7 +121,7 @@ public class Task_Manager_5 {
                 description += taskDescription[i] + " ";
             }
         }
-        tasks.add(new Task(description));
+        tasks.add(new Todo(description));
     }
 
     private static void addTodo(String line) throws TaskManagerException {
