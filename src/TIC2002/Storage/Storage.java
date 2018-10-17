@@ -95,23 +95,21 @@ public class Storage {
 
     public static void main(String[] args) {
         Storage storage = new Storage("data/tasks.txt");
-//        List<Task> tasks = new ArrayList<>();
-        TaskList tasks = null;
-        try {
-            tasks = new TaskList(storage.load());
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        printTasks(tasks);
-//        tasks.add(new Todo("Add this"));
-//        tasks.add(new Deadline("Add that", "Friday Shit"));
+        List<Task> tasks = new ArrayList<>();
+//        TaskList tasks = null;
 //        try {
-//            storage.save(tasks);
-//        } catch (IOException e) {
+//            tasks = new TaskList(storage.load());
+//        } catch (FileNotFoundException e) {
 //            e.printStackTrace();
 //        }
-
-
+//        printTasks(tasks);
+        tasks.add(new Todo("Add this"));
+        tasks.add(new Deadline("Add that", "Friday Shit"));
+        try {
+            storage.save(tasks);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
 }

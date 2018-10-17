@@ -1,5 +1,7 @@
 package TIC2002.Parser;
 
+import TIC2002.Task.Deadline;
+import TIC2002.Task.TaskManagerException;
 import TIC2002.Task.Todo;
 
 /**
@@ -10,19 +12,38 @@ import TIC2002.Task.Todo;
  */
 public class Parser {
 
-    public static String getCommandWord(String fullCommand) throws ParserException {
-        String command = fullCommand.trim().split("")[0];
-        System.out.println(command);
-        if (command.trim().equals("")) {
-            throw new ParserException("Unknown command! please try again");
-        }
+    public static String getCommandWord(String fullCommand) {
+        String command = fullCommand.trim().split(" ")[0];
         return command;
     }
 
-    public static Todo createTodo(String description) {
-        Todo t = null;
-        return t;
+    public static Todo createTodo(String fullCommand) throws TaskManagerException {
+        String description = fullCommand.trim().split(" ")[1];
+        if (description.isEmpty()) {
+            throw new TaskManagerException("Empty description for TODO");
+        }
+        return new Todo(description);
     }
 
+    public static Deadline createDeadLine(String fullCommand) throws TaskManagerException {
+        int idxOfBy = fullCommand.indexOf("/by");
+        if (idxOfBy < 0) {
+            throw new TaskManagerException("Empty description and deadline for DEADLINE");
+        }
 
+        String description = fullCommand.substring(0, idxOfBy).substring("deadline".length()).trim();
+        if (description.isEmpty() || description.equals("")) {
+            throw new TaskManagerException("Empty description for DEADLINE");
+        }
+        String deadline = fullCommand.substring(idxOfBy, fullCommand.length()).substring("/by".length()).trim();
+        if (deadline.isEmpty() || deadline.equals("")) {
+            throw new TaskManagerException("Empty deadline for DEADLINE");
+        }
+        return new Deadline(description, deadline);
+    }
+
+    public static void main(String[] args) throws TaskManagerException {
+        System.out.println(Parser.getCommandWord("todo"));
+        System.out.println(createTodo("todo taskdescription"));
+    }
 }

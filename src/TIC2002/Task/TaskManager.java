@@ -1,16 +1,12 @@
 package TIC2002.Task;
 
-
-import TIC2002.Parser.ParserException;
 import TIC2002.UI.Ui;
 import TIC2002.Storage.Storage;
 import TIC2002.TaskList.TaskList;
 import TIC2002.Parser.Parser;
 
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.FileWriter;
-import java.io.IOException;
+
 
 @SuppressWarnings("Duplicates")
 public class TaskManager {
@@ -44,12 +40,12 @@ public class TaskManager {
                         isExit = true;
                         break;
                     case "todo":
-
+                        tasks.addTasks(Parser.createTodo(fullCommand));
                         break;
-//                    case "deadline":
-//                        addDeadline(line);
-//                        break;
-//                    case "print":
+                    case "deadline":
+                        tasks.addTasks(Parser.createDeadLine(fullCommand));
+                        break;
+                    case "print":
 //                        printTasks();
 //                        break;
 //                    case "done":
@@ -68,8 +64,8 @@ public class TaskManager {
 //                        }
 //                    break;
                 }
-            } catch (ParserException e) {
-                e.printStackTrace();
+            } catch (TaskManagerException e) {
+                ui.printError(e.getMessage());
             }
         }
         exit();

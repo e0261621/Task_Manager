@@ -32,4 +32,8 @@ public class TaskList {
     public List<Task> getTasks() {
         return this.tasks;
     }
+
+    public void addTasks(Task task) {
+        this.tasks.add(task);
+    }
 }
