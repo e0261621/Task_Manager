@@ -1,5 +1,6 @@
-package TIC2002.Task;
+package TIC2002.Main;
 
+import TIC2002.Exception.TaskManagerException;
 import TIC2002.UI.Ui;
 import TIC2002.Storage.Storage;
 import TIC2002.TaskList.TaskList;
@@ -46,23 +47,20 @@ public class TaskManager {
                         tasks.addTasks(Parser.createDeadLine(fullCommand));
                         break;
                     case "print":
-//                        printTasks();
-//                        break;
-//                    case "done":
-//                        markAsDone(line);
-//                        break;
-//                    case "save":
-//                        try {
-//                            FileWriter fw = new FileWriter(filePath);
-//
-//                            for (Task t : tasks) {
-//                                fw.write(t.save());
-//                            }
-//                            fw.close();
-//                        } catch (IOException e) {
-//                            e.printStackTrace();
-//                        }
-//                    break;
+                        tasks.printTasks();
+                        break;
+                    case "done":
+                        tasks.markAsDone(fullCommand);
+                        break;
+                    case "save":
+                        storage.save(tasks.getTasks());
+                        break;
+                    case "remove":
+                        tasks.removeTask(fullCommand);
+                        break;
+                    default:
+                        ui.printError("Unknown command! please try again");
+                        break;
                 }
             } catch (TaskManagerException e) {
                 ui.printError(e.getMessage());

@@ -70,18 +70,22 @@ public class Storage {
     }
 
 
-    private void save(List<Task> tasks) throws IOException {
-        FileWriter fw = new FileWriter(this.filePath);
+    public void save(List<Task> tasks) {
+        try {
+            FileWriter fw = new FileWriter(this.filePath);
 
-        File f = new File(this.filePath); // create a File for the given file path
-        Scanner s = new Scanner(f); // create a Scanner using the File as the source
-        for (Task task : tasks) {
-            if (s.hasNext()) {
-                fw.write("\r\n");
+            File f = new File(this.filePath); // create a File for the given file path
+            Scanner s = new Scanner(f); // create a Scanner using the File as the source
+            for (Task task : tasks) {
+                if (s.hasNext()) {
+                    fw.write("\r\n");
+                }
+                fw.write(task.save());
             }
-            fw.write(task.save());
+            fw.close();
+        } catch (IOException e) {
+
         }
-        fw.close();
     }
 
     private static void printTasks(TaskList tasks) {
@@ -105,11 +109,9 @@ public class Storage {
 //        printTasks(tasks);
         tasks.add(new Todo("Add this"));
         tasks.add(new Deadline("Add that", "Friday Shit"));
-        try {
-            storage.save(tasks);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+
+        storage.save(tasks);
+
     }
 
 }

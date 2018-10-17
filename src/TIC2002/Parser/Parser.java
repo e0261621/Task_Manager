@@ -1,7 +1,7 @@
 package TIC2002.Parser;
 
 import TIC2002.Task.Deadline;
-import TIC2002.Task.TaskManagerException;
+import TIC2002.Exception.TaskManagerException;
 import TIC2002.Task.Todo;
 
 /**
@@ -18,11 +18,12 @@ public class Parser {
     }
 
     public static Todo createTodo(String fullCommand) throws TaskManagerException {
-        String description = fullCommand.trim().split(" ")[1];
+        String description = fullCommand.substring("todo".length()).trim();
         if (description.isEmpty()) {
             throw new TaskManagerException("Empty description for TODO");
+        } else {
+            return new Todo(description);
         }
-        return new Todo(description);
     }
 
     public static Deadline createDeadLine(String fullCommand) throws TaskManagerException {

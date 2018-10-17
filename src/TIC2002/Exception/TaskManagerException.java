@@ -1,4 +1,4 @@
-package TIC2002.Task;
+package TIC2002.Exception;
 
 public class TaskManagerException extends Exception {
     public TaskManagerException(String message) {
