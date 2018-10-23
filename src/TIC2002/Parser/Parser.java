@@ -42,9 +42,4 @@ public class Parser {
         }
         return new Deadline(description, deadline);
     }
-
-    public static void main(String[] args) throws TaskManagerException {
-        System.out.println(Parser.getCommandWord("todo"));
-        System.out.println(createTodo("todo taskdescription"));
-    }
 }

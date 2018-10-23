@@ -102,36 +102,4 @@ public class Storage {
 
         }
     }
-
-    /**
-     * Prints the tasks
-     *
-     * @param tasks
-     */
-    private static void printTasks(TaskList tasks) {
-        System.out.println("Tasks:");
-        int i = 1;
-        for (Task t : tasks.getTasks()) {
-            System.out.println("[" + (i) + "] " + t);
-            i++;
-        }
-    }
-
-
-    public static void main(String[] args) {
-        Storage storage = new Storage("data/tasks.txt");
-        List<Task> tasks = new ArrayList<>();
-//        TaskList tasks = null;
-//        try {
-//            tasks = new TaskList(storage.load());
-//        } catch (FileNotFoundException e) {
-//            e.printStackTrace();
-//        }
-//        printTasks(tasks);
-        tasks.add(new Todo("Task 1"));
-        tasks.add(new Deadline("Task 2", "Tuesday 4PM"));
-
-        storage.save(tasks);
-    }
-
 }

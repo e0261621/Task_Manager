@@ -55,8 +55,4 @@ public class TaskList {
         this.printTaskCount();
     }
 
-    public static void main(String[] args) {
-
-    }
-
 }

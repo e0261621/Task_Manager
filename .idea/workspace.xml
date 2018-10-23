@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="46589e7b-6375-442b-a422-8d80dcd142a7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TIC2002/Main/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TIC2002/Main/TaskManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TIC2002/Parser/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TIC2002/Parser/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TIC2002/Storage/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TIC2002/Storage/Storage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TIC2002/Task/Deadline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TIC2002/Task/Deadline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TIC2002/Task/Task_Manager_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TIC2002/Task/Task_Manager_5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TIC2002/Task/Task_Manager_5.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TIC2002/TaskList/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TIC2002/TaskList/TaskList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TIC2002/Test/ParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TIC2002/Test/ParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TIC2002/UI/Ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TIC2002/UI/Ui.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,14 +48,42 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-386943145">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="16" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TIC2002/Task/Task.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="306">
+              <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -64,26 +91,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TIC2002/Task/Todo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TIC2002/Task/Task_Manager_5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3740">
-              <caret line="220" column="20" selection-start-line="220" selection-start-column="20" selection-end-line="220" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TIC2002/Main/TaskManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+            <state relative-caret-position="1173">
+              <caret line="72" column="39" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2283#2284#0" expanded="true" />
@@ -98,16 +116,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TIC2002/TaskList/TaskList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="206">
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="646">
+              <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#495#496#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#812#813#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TIC2002/Test/ParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,7 +141,7 @@
         <entry file="file://$PROJECT_DIR$/src/TIC2002/Exception/TaskManagerException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -125,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TIC2002/Parser/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+            <state relative-caret-position="437">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -137,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TIC2002/Storage/Storage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            <state relative-caret-position="1270">
+              <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -149,27 +173,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TIC2002/UI/Ui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
-              <folding>
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#712#713#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#936#937#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="284">
+              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TIC2002/Task/Deadline.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            <state relative-caret-position="306">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -197,16 +211,16 @@
         <option value="$PROJECT_DIR$/src/tic2002/Parser/Parser.java" />
         <option value="$PROJECT_DIR$/src/TIC2002/Task/Task.java" />
         <option value="$PROJECT_DIR$/src/TIC2002/Task/TaskManager.java" />
-        <option value="$PROJECT_DIR$/src/TIC2002/Parser/Parser.java" />
-        <option value="$PROJECT_DIR$/src/TIC2002/Main/TaskManager.java" />
         <option value="$PROJECT_DIR$/src/TIC2002/Exception/TaskManagerException.java" />
         <option value="$PROJECT_DIR$/src/TIC2002/Test/ParserTest.java" />
         <option value="$PROJECT_DIR$/src/TIC2002/Test/StorageTest.java" />
         <option value="$PROJECT_DIR$/src/TIC2002/Task/Task_Manager_5.java" />
         <option value="$PROJECT_DIR$/src/TIC2002/Task/Deadline.java" />
-        <option value="$PROJECT_DIR$/src/TIC2002/UI/Ui.java" />
-        <option value="$PROJECT_DIR$/src/TIC2002/Storage/Storage.java" />
         <option value="$PROJECT_DIR$/src/TIC2002/TaskList/TaskList.java" />
+        <option value="$PROJECT_DIR$/src/TIC2002/Main/TaskManager.java" />
+        <option value="$PROJECT_DIR$/src/TIC2002/Storage/Storage.java" />
+        <option value="$PROJECT_DIR$/src/TIC2002/UI/Ui.java" />
+        <option value="$PROJECT_DIR$/src/TIC2002/Parser/Parser.java" />
       </list>
     </option>
   </component>
@@ -247,82 +261,79 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Task_Manager_v1.0" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Task_Manager_v1.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Task_Manager_v1.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TIC2002" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Task_Manager_v1.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TIC2002" type="462c0819:PsiDirectoryNode" />
               <item name="Exception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Task_Manager_v1.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TIC2002" type="462c0819:PsiDirectoryNode" />
               <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Task_Manager_v1.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TIC2002" type="462c0819:PsiDirectoryNode" />
               <item name="Parser" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Task_Manager_v1.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TIC2002" type="462c0819:PsiDirectoryNode" />
               <item name="Storage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Task_Manager_v1.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TIC2002" type="462c0819:PsiDirectoryNode" />
               <item name="Task" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Task_Manager_v1.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TIC2002" type="462c0819:PsiDirectoryNode" />
               <item name="TaskList" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Task_Manager_v1.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TIC2002" type="462c0819:PsiDirectoryNode" />
               <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
-              <item name="task_manager" type="462c0819:PsiDirectoryNode" />
+              <item name="Task_Manager_v1.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="TIC2002" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
@@ -335,8 +346,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -345,9 +354,9 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540276628026" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540286968264" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sampleProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -454,6 +463,7 @@
       <workItem from="1538890116781" duration="16659000" />
       <workItem from="1539578154825" duration="14732000" />
       <workItem from="1540269371591" duration="5590000" />
+      <workItem from="1540278381017" duration="7511000" />
     </task>
     <servers />
   </component>
@@ -463,13 +473,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43603000" />
+    <option name="totallyTimeSpent" value="51114000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16792738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -529,57 +539,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TIC2002/Test/ParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TIC2002/Task/Todo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TIC2002/Task/Task_Manager_5.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3740">
+        <state relative-caret-position="528">
           <caret line="220" column="20" selection-start-line="220" selection-start-column="20" selection-end-line="220" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TIC2002/Task/Task.java">
+    <entry file="file://$PROJECT_DIR$/src/TIC2002/Test/ParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TIC2002/Task/Deadline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TIC2002/UI/Ui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="49" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+        <state relative-caret-position="306">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
           <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#936#937#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -587,24 +559,45 @@
     <entry file="file://$PROJECT_DIR$/src/TIC2002/Exception/TaskManagerException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TIC2002/Parser/Parser.java">
+    <entry file="file://$PROJECT_DIR$/src/TIC2002/Task/Task.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="45" column="17" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+        <state relative-caret-position="306">
+          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TIC2002/Task/Todo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TIC2002/Storage/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1270">
+          <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TIC2002/Storage/Storage.java">
+    <entry file="file://$PROJECT_DIR$/src/TIC2002/UI/Ui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        <state relative-caret-position="284">
+          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TIC2002/Parser/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -613,24 +606,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TIC2002/TaskList/TaskList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="646">
+          <caret line="49" column="5" lean-forward="true" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#779#780#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#887#888#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TIC2002/Main/TaskManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="1173">
+          <caret line="72" column="39" selection-start-line="72" selection-start-column="25" selection-end-line="72" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2283#2284#0" expanded="true" />
@@ -638,6 +625,13 @@
             <element signature="e#2371#2372#0" expanded="true" />
             <element signature="e#2408#2409#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TIC2002/Task/Deadline.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
         </state>
       </provider>
     </entry>
