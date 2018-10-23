@@ -40,6 +40,14 @@ public class Storage {
         return loadedTasks;
     }
 
+    /**
+     * Creates a task based on the line read in from the tasks.txt file.
+     * If it is a T then todo is created,
+     * if it is a D then deadline is created.
+     *
+     * @param line
+     * @return
+     */
     private Task createTask(String line) {
         Task task = null;
         String[] s = line.split("\\|");
@@ -59,6 +67,13 @@ public class Storage {
         return task;
     }
 
+    /**
+     * Returns the lines in the form of a List<String> variable
+     *
+     * @param filePath
+     * @return List<String> lines
+     * @throws FileNotFoundException
+     */
     private List<String> getLines(String filePath) throws FileNotFoundException {
         List<String> lines = new ArrayList<String>();
         File f = new File(filePath); // create a File for the given file path
@@ -88,6 +103,11 @@ public class Storage {
         }
     }
 
+    /**
+     * Prints the tasks
+     *
+     * @param tasks
+     */
     private static void printTasks(TaskList tasks) {
         System.out.println("Tasks:");
         int i = 1;
@@ -96,6 +116,7 @@ public class Storage {
             i++;
         }
     }
+
 
     public static void main(String[] args) {
         Storage storage = new Storage("data/tasks.txt");
@@ -107,11 +128,10 @@ public class Storage {
 //            e.printStackTrace();
 //        }
 //        printTasks(tasks);
-        tasks.add(new Todo("Add this"));
-        tasks.add(new Deadline("Add that", "Friday Shit"));
+        tasks.add(new Todo("Task 1"));
+        tasks.add(new Deadline("Task 2", "Tuesday 4PM"));
 
         storage.save(tasks);
-
     }
 
 }

@@ -1,13 +1,5 @@
 package TIC2002.TaskList;
 
-//private TaskList tasks = new TaskList(storage.load());
-//        ...
-//        t = Parser.createTodo(fullCommand);
-//        tasks.addTask(t);
-//        ...
-//        Sting taskListDescription = tasks.getDescription();
-//        ui.showToUser(taskListDescription);
-
 import TIC2002.Task.Task;
 
 import java.util.ArrayList;
@@ -61,6 +53,10 @@ public class TaskList {
         int index = Integer.parseInt(fullCommand.substring("remove".length()).trim());
         tasks.remove(index - 1);
         this.printTaskCount();
+    }
+
+    public static void main(String[] args) {
+
     }
 
 }

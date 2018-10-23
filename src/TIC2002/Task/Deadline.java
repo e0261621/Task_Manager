@@ -18,11 +18,13 @@ public class Deadline extends Todo {
 
     @Override
     public String toString() {
-        return String.format("description: %s\n is done ? %s\n  do by: %s", this.getDescription(), this.isIsDone() ? "Yes" : "No", this.getDeadLine());
+        return String.format("description: %s\n is done ? %s\n  do by: %s", this.getDescription(),
+                this.isIsDone() ? "Yes" : "No", this.getDeadLine());
     }
 
     @Override
     public String save() {
-        return "D" + " | " + (this.isIsDone() ? 1 : 0) + " | " + super.getDescription() + " | " + this.getDeadLine() + System.lineSeparator();
+        return "D" + " | " + (this.isIsDone() ? 1 : 0) + " | " + super.getDescription()
+                + " | " + this.getDeadLine() + System.lineSeparator();
     }
 }
