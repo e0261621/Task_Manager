@@ -1,10 +1,10 @@
-package TIC2002.Main;
+package tic2002.main;
 
-import TIC2002.Exception.TaskManagerException;
-import TIC2002.UI.Ui;
-import TIC2002.Storage.Storage;
-import TIC2002.TaskList.TaskList;
-import TIC2002.Parser.Parser;
+import tic2002.exception.TaskManagerException;
+import tic2002.ui.Ui;
+import tic2002.storage.Storage;
+import tic2002.tasklist.TaskList;
+import tic2002.parser.Parser;
 
 import java.io.FileNotFoundException;
 

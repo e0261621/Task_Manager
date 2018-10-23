@@ -1,3 +1,4 @@
 T | 0 | Add this
-D | 0 | Add that  |  Friday Shit
+D | 0 |  Add that   |   Friday Shit
 T | 0 | FIND ALEX
+T | 0 | return school textbook

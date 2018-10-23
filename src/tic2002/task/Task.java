@@ -1,4 +1,4 @@
-package TIC2002.Task;
+package tic2002.task;
 
 public abstract class Task {
     protected String description;

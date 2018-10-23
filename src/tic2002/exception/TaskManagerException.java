@@ -1,4 +1,4 @@
-package TIC2002.Exception;
+package tic2002.exception;
 
 /**
  * Generates an exception when called and passes the message to the caller.

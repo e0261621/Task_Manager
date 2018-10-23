@@ -1,6 +1,6 @@
-import TIC2002.Exception.TaskManagerException;
-import TIC2002.Parser.Parser;
-import TIC2002.Task.Todo;
+import tic2002.exception.TaskManagerException;
+import tic2002.parser.Parser;
+import tic2002.task.Todo;
 import org.junit.Test;
 import static junit.framework.TestCase.assertEquals;
 

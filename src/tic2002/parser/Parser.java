@@ -1,8 +1,8 @@
-package TIC2002.Parser;
+package tic2002.parser;
 
-import TIC2002.Task.Deadline;
-import TIC2002.Exception.TaskManagerException;
-import TIC2002.Task.Todo;
+import tic2002.task.Deadline;
+import tic2002.exception.TaskManagerException;
+import tic2002.task.Todo;
 
 /**
  * public static getCommandWord(String fullCommand): Returns a the command word i.e., the first word of the given fullCommand

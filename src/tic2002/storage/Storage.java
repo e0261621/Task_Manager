@@ -1,14 +1,13 @@
-package TIC2002.Storage;
+package tic2002.storage;
 
 //Storage storage = new Storage("data/tasks.txt");
 //        List<Task> tasks = storage.load();
 //        ...
 //        storage.save(tasks);
 
-import TIC2002.Task.Deadline;
-import TIC2002.Task.Todo;
-import TIC2002.Task.Task;
-import TIC2002.TaskList.TaskList;
+import tic2002.task.Deadline;
+import tic2002.task.Todo;
+import tic2002.task.Task;
 
 import java.io.File;
 import java.io.FileNotFoundException;

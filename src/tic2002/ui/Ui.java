@@ -1,4 +1,4 @@
-package TIC2002.UI;
+package tic2002.ui;
 
 import java.util.Scanner;
 

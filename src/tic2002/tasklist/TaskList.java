@@ -1,6 +1,6 @@
-package TIC2002.TaskList;
+package tic2002.tasklist;
 
-import TIC2002.Task.Task;
+import tic2002.task.Task;
 
 import java.util.ArrayList;
 import java.util.List;
