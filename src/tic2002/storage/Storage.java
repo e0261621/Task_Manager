@@ -5,9 +5,11 @@ package tic2002.storage;
 //        ...
 //        storage.save(tasks);
 
+import tic2002.misc.helper;
 import tic2002.task.Deadline;
 import tic2002.task.Todo;
 import tic2002.task.Task;
+import tic2002.ui.Ui;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -24,6 +26,10 @@ public class Storage {
 
     public Storage(String filePath) {
         this.filePath = filePath;
+    }
+
+    public String getFilePath() {
+        return filePath;
     }
 
     public List<Task> load() throws FileNotFoundException {
@@ -89,6 +95,24 @@ public class Storage {
             FileWriter fw = new FileWriter(this.filePath);
 
             File f = new File(this.filePath); // create a File for the given file path
+            Scanner s = new Scanner(f); // create a Scanner using the File as the source
+            for (Task task : tasks) {
+                if (s.hasNext()) {
+                    fw.write("\r\n");
+                }
+                fw.write(task.save());
+            }
+            fw.close();
+        } catch (IOException e) {
+
+        }
+    }
+
+    public void createBackup(List<Task> tasks) {
+        try {
+            FileWriter fw = new FileWriter(this.filePath + "_backup_" + helper.getDateInFileWriteFormat() + ".txt");
+
+            File f = new File(this.filePath + "_backup_" + helper.getDateInFileWriteFormat() + ".txt"); // create a File for the given file path
             Scanner s = new Scanner(f); // create a Scanner using the File as the source
             for (Task task : tasks) {
                 if (s.hasNext()) {

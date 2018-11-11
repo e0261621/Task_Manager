@@ -2,26 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46589e7b-6375-442b-a422-8d80dcd142a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/junit_junit_4_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/tasks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/tasks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_Manager/ParserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Exception/TaskManagerException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Exception/TaskManagerException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Task_Manager_jar/Task_Manager.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Task_Manager_jar/Task_Manager.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Constants/TaskManagerContants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Constants/TaskManagerContants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Main/TaskManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Main/TaskManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Parser/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Parser/Parser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Storage/Storage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Storage/Storage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Task/Deadline.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Task/Deadline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Task/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Task/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Task/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/Task/Todo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/TaskList/TaskList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/TaskList/TaskList.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/UI/Ui.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Task_Manager/TIC2002/UI/Ui.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Task_Manager/ParserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Task_Manager/ParserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tic2002/Constants/TaskManagerContants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic2002/Constants/TaskManagerContants.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tic2002/main/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic2002/main/TaskManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic2002/task/Deadline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic2002/task/Deadline.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic2002/task/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic2002/task/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tic2002/storage/Storage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic2002/storage/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tic2002/tasklist/TaskList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic2002/tasklist/TaskList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tic2002/test/StorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic2002/test/StorageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tic2002/ui/Ui.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tic2002/ui/Ui.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -73,22 +65,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3738" />
+          <entry key="java" value="4943" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3738" />
+          <entry key="JAVA" value="4943" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="11" />
+          <entry key="java" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="11" />
+          <entry key="JAVA" value="13" />
         </counts>
       </usages-collector>
     </session>
@@ -123,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tic2002/main/TaskManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+            <state relative-caret-position="213">
+              <caret line="98" column="38" lean-forward="true" selection-start-line="98" selection-start-column="38" selection-end-line="98" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -138,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tic2002/tasklist/TaskList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="49" column="38" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="38" />
+            <state relative-caret-position="336">
+              <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#227#228#0" expanded="true" />
@@ -148,30 +140,6 @@
                 <element signature="e#1080#1081#0" expanded="true" />
                 <element signature="e#1126#1127#0" expanded="true" />
                 <element signature="e#1161#1162#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tic2002/test/StorageTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/tic2002/test/ParserTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="13" column="20" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,11 +157,27 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tic2002/storage/Storage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#610#611#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#676#677#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tic2002/ui/Ui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="34" column="35" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="35" />
+            <state relative-caret-position="228">
+              <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#548#549#0" expanded="true" />
@@ -212,10 +196,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tic2002/misc/helper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tic2002/Constants/TaskManagerContants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="340">
+              <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -267,10 +263,12 @@
         <option value="$PROJECT_DIR$/src/tic2002/task/Todo.java" />
         <option value="$PROJECT_DIR$/src/tic2002/task/Deadline.java" />
         <option value="$PROJECT_DIR$/src/tic2002/parser/Parser.java" />
-        <option value="$PROJECT_DIR$/src/tic2002/Constants/TaskManagerContants.java" />
         <option value="$PROJECT_DIR$/src/tic2002/tasklist/TaskList.java" />
+        <option value="$PROJECT_DIR$/src/tic2002/Constants/TaskManagerContants.java" />
         <option value="$PROJECT_DIR$/src/tic2002/ui/Ui.java" />
+        <option value="$PROJECT_DIR$/src/tic2002/misc/helper.java" />
         <option value="$PROJECT_DIR$/src/tic2002/main/TaskManager.java" />
+        <option value="$PROJECT_DIR$/src/tic2002/storage/Storage.java" />
       </list>
     </option>
   </component>
@@ -280,7 +278,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="318" />
     <option name="y" value="191" />
     <option name="width" value="1121" />
@@ -357,6 +355,27 @@
               <item name="tic2002" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_Manager_v1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tic2002" type="462c0819:PsiDirectoryNode" />
+              <item name="misc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_Manager_v1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tic2002" type="462c0819:PsiDirectoryNode" />
+              <item name="storage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Task_Manager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Task_Manager_v1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="tic2002" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -369,7 +388,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541937118010" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541947447802" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/javax.mail.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -416,6 +435,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tic2002.ui.Ui" />
+      <module name="Task_Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tic2002.ui.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in Task_Manager (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Task_Manager" />
       <option name="PACKAGE_NAME" value="" />
@@ -432,16 +464,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StorageTest.saveTasks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Task_Manager" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StorageTest" />
-      <option name="METHOD_NAME" value="saveTasks" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task_Manager.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Task_Manager_jar/Task_Manager.jar" />
       <method v="2" />
@@ -449,17 +471,17 @@
     <list>
       <item itemvalue="Application.TaskManager" />
       <item itemvalue="JUnit.StorageTest" />
-      <item itemvalue="JUnit.StorageTest.saveTasks" />
       <item itemvalue="JUnit.All in Task_Manager (1)" />
       <item itemvalue="JAR Application.Task_Manager.jar" />
+      <item itemvalue="Application.Ui" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TaskManager" />
+        <item itemvalue="Application.Ui" />
         <item itemvalue="JAR Application.Task_Manager.jar" />
         <item itemvalue="JUnit.All in Task_Manager (1)" />
         <item itemvalue="JUnit.StorageTest" />
-        <item itemvalue="JUnit.StorageTest.saveTasks" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +500,7 @@
       <workItem from="1539578154825" duration="14732000" />
       <workItem from="1540269371591" duration="5590000" />
       <workItem from="1540278381017" duration="12021000" />
-      <workItem from="1540611589388" duration="24803000" />
+      <workItem from="1540611589388" duration="31447000" />
     </task>
     <servers />
   </component>
@@ -515,7 +537,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80427000" />
+    <option name="totallyTimeSpent" value="87071000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,7 +552,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25037822" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17700455" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -540,13 +562,13 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.29180327" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.30983606" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.32459018" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" weight="0.3295082" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -588,16 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tic2002/storage/Storage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="94" column="32" selection-start-line="94" selection-start-column="32" selection-end-line="94" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -669,17 +681,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tic2002/Constants/TaskManagerContants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tic2002/tasklist/TaskList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="49" column="38" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="38" />
+        <state relative-caret-position="336">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#227#228#0" expanded="true" />
@@ -692,10 +697,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tic2002/Constants/TaskManagerContants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="68" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tic2002/ui/Ui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="34" column="35" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="228">
+          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#548#549#0" expanded="true" />
@@ -712,12 +724,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tic2002/main/TaskManager.java">
+    <entry file="file://$PROJECT_DIR$/src/tic2002/misc/helper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tic2002/main/TaskManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="98" column="38" lean-forward="true" selection-start-line="98" selection-start-column="38" selection-end-line="98" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tic2002/storage/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="117" column="34" selection-start-line="117" selection-start-column="34" selection-end-line="117" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#610#611#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#676#677#0" expanded="true" />
           </folding>
         </state>
       </provider>

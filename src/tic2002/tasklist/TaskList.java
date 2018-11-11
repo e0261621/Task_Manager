@@ -54,7 +54,13 @@ public class TaskList {
     public void markAsDone(String fullCommand) {
         int index = Integer.parseInt(fullCommand.substring("done".length()).trim());
         tasks.get(index - 1).setDone(true);
-//        System.out.println("Tasks in the list: " + tasks.size());
+
+    }
+
+    public void markAsNotDone(String fullCommand) {
+        int index = Integer.parseInt(fullCommand.substring("undone".length()).trim());
+        tasks.get(index - 1).setDone(false);
+
     }
 
     public void removeTask(String fullCommand) {

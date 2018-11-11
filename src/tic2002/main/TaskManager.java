@@ -46,8 +46,7 @@ public class TaskManager {
                 String commandWord = Parser.getCommandWord(fullCommand);
                 switch (commandWord) {
                     case "":
-
-                        ui.printError("No command input! Please enter a command or type \"-help\" to view a list of commands.");
+                        ui.printError("No command input! Please enter a command or type \"help\" to view a list of commands.");
                         break;
                     case "exit":
                         isExit = true;
@@ -86,6 +85,9 @@ public class TaskManager {
                         tasks.markAsDone(fullCommand);
                         ui.showToUser(tasks.getTaskCount());
                         break;
+                    case "undone":
+                        tasks.markAsNotDone(fullCommand);
+                        ui.showToUser(tasks.getTaskCount());
                     case "save":
                         storage.save(tasks.getTasks());
                         break;
@@ -93,8 +95,11 @@ public class TaskManager {
                         tasks.removeTask(fullCommand);
                         ui.showToUser(tasks.getTaskCount());
                         break;
+                    case "backup":
+                        storage.createBackup(tasks.getTasks());
+                        break;
                     default:
-                        ui.printError("Unknown command! please try again");
+                        ui.printError("Unknown command! please try again. Please type \"help\" to view a list of commands.");
                         break;
                 }
             } catch (TaskManagerException e) {
