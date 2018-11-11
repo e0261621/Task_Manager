@@ -24,7 +24,9 @@ public class Deadline extends Todo {
 
     @Override
     public String save() {
-        return "D" + " | " + (this.isIsDone() ? 1 : 0) + " | " + super.getDescription()
-                + " | " + this.getDeadLine() + System.lineSeparator();
+        return "D" + " | " + (this.isIsDone() ? 1 : 0) + " | " + this.getDescription().trim()
+                + " | " + this.getDeadLine().trim() + System.lineSeparator();
     }
+
+
 }

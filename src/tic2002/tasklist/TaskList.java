@@ -15,8 +15,13 @@ public class TaskList {
 
     public String getDescription() {
         String tasksDescription = "";
-        for (Task t : tasks) {
-            tasksDescription += t.getDescription() + "|";
+        for (int i = 0; i < tasks.size(); i++) {
+            tasksDescription += tasks.get(i).getDescription().trim();
+            if (i == tasks.size() - 1) {
+
+            } else {
+                tasksDescription += "|";
+            }
         }
         return tasksDescription;
     }
@@ -25,7 +30,7 @@ public class TaskList {
         return this.tasks;
     }
 
-    public void addTasks(Task task) {
+    public void addTask(Task task) {
         this.tasks.add(task);
     }
 
@@ -38,21 +43,29 @@ public class TaskList {
         }
     }
 
-    public void printTaskCount() {
-        System.out.println("Tasks in the list: " + tasks.size());
+    public static String getTaskCount() {
+        return "Tasks in the list: " + tasks.size();
+    }
+
+    public static int getNumberOfTasks() {
+        return tasks.size();
     }
 
     public void markAsDone(String fullCommand) {
         int index = Integer.parseInt(fullCommand.substring("done".length()).trim());
         tasks.get(index - 1).setDone(true);
-        this.printTaskCount();
 //        System.out.println("Tasks in the list: " + tasks.size());
     }
 
     public void removeTask(String fullCommand) {
         int index = Integer.parseInt(fullCommand.substring("remove".length()).trim());
         tasks.remove(index - 1);
-        this.printTaskCount();
+    }
+
+    public String modifyDescription(String newDescription) {
+        String oldDesc = "";
+
+        return oldDesc;
     }
 
 }

@@ -10,6 +10,15 @@ import java.io.FileNotFoundException;
 
 
 @SuppressWarnings("Duplicates")
+
+/**
+ * The TaskManager program implements an application that
+ * stores tasks and displays them for the user to view,modify and delete.
+ *
+ * @author Adi Kesava Das / A0177810A
+ * @version 1.0
+ * @since 2018-10-27
+ */
 public class TaskManager {
 
     private Storage storage;
@@ -36,27 +45,53 @@ public class TaskManager {
                 String fullCommand = ui.readUserCommand();
                 String commandWord = Parser.getCommandWord(fullCommand);
                 switch (commandWord) {
+                    case "":
+
+                        ui.printError("No command input! Please enter a command or type \"-help\" to view a list of commands.");
+                        break;
                     case "exit":
-                    case "": // exit if user input is empty
                         isExit = true;
+                        if (tasks.getNumberOfTasks() > 0) {
+                            storage.save(tasks.getTasks());
+                            ui.showToUserNoNewLine("Saving");
+                            for (int i = 0; i < 10; i++) {
+                                ui.showToUserNoNewLine(".");
+                                try {
+                                    Thread.sleep(300);
+                                } catch (InterruptedException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                            ui.showToUserNoNewLine("complete~!");
+                        } else {
+                            ui.showToUser("No tasks found in the list!");
+                        }
+                        ui.printGoodBye();
+                        break;
+                    case "help":
+                        ui.helpMessage();
                         break;
                     case "todo":
-                        tasks.addTasks(Parser.createTodo(fullCommand));
+                        tasks.addTask(Parser.createTodo(fullCommand));
+                        ui.showToUser(tasks.getTaskCount());
                         break;
                     case "deadline":
-                        tasks.addTasks(Parser.createDeadLine(fullCommand));
+                        tasks.addTask(Parser.createDeadLine(fullCommand));
+                        ui.showToUser(tasks.getTaskCount());
                         break;
                     case "print":
                         tasks.printTasks();
                         break;
                     case "done":
                         tasks.markAsDone(fullCommand);
+                        ui.showToUser(tasks.getTaskCount());
                         break;
                     case "save":
                         storage.save(tasks.getTasks());
                         break;
                     case "remove":
                         tasks.removeTask(fullCommand);
+                        ui.showToUser(tasks.getTaskCount());
                         break;
                     default:
                         ui.printError("Unknown command! please try again");
@@ -71,9 +106,10 @@ public class TaskManager {
 
     public static void main(String[] args) {
         new TaskManager("data/tasks.txt").run();
+
     }
 
     public static void exit() {
-        System.out.println(0);
+//        System.out.println(0);
     }
 }

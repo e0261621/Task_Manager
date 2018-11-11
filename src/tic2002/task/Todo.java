@@ -7,8 +7,13 @@ public class Todo extends Task {
     }
 
     @Override
+    public void setDescription(String description) {
+        super.setDescription(description);
+    }
+
+    @Override
     public String toString() {
-        return String.format("description: %s\n is done ? %s", this.getDescription(), this.isIsDone() ? "Yes" : "No");
+        return String.format(super.toString() + " is done ? %s", this.isIsDone() ? "Yes" : "No");
     }
 
     @Override

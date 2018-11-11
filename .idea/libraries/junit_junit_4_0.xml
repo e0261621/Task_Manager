@@ -3,6 +3,7 @@
     <properties maven-id="junit:junit:4.0" />
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/junit-4.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.mail.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/lib/junit-4.0-javadoc.jar!/" />

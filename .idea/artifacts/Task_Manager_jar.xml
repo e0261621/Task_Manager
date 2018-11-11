@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Task_Manager:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Task_Manager_jar</output-path>
+    <root id="archive" name="Task_Manager.jar">
+      <element id="module-output" name="Task_Manager" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/junit-4.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javax.mail.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
