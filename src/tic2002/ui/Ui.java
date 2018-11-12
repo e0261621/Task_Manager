@@ -1,7 +1,5 @@
 package tic2002.ui;
 
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Scanner;
 
 import static tic2002.Constants.TaskManagerContants.*;
@@ -67,13 +65,15 @@ public class Ui {
     }
 
     public static void helpMessage() {
-        String helpMessage = String.format("%-15s%s\n%-15s%s\n%-15s%s\n%-15s%s\n%-15s%s\n%-15s%s\n%-15s%s\n", TODO, TODO_HELP_STATEMENT,
+        String helpMessage = String.format("\n%-15s%s\n\n%-15s%s\n\n%-15s%s\n\n%-15s%s\n\n%-15s%s\n\n%-15s%s\n\n%-15s%s\n\n%-15s%s\n",
+                TODO, TODO_HELP_STATEMENT,
                 DEADLINE, DEADLINE_HELP_STATEMENT,
                 SAVE, SAVE_HELP_STATEMENT,
                 PRINT, PRINT_HELP_STATEMENT,
                 DONE, DONE_HELP_STATEMENT,
                 UNDONE, UNDONE_HELP_STATEMENT,
-                REMOVE, REMOVE_HELP_STATEMENT);
+                REMOVE, REMOVE_HELP_STATEMENT,
+                BACKUP, BACKUP_HELP_STATEMENT);
 
         System.out.println(helpMessage);
     }

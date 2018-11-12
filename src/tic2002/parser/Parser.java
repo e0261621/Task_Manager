@@ -19,6 +19,7 @@ public class Parser {
 
     public static Todo createTodo(String fullCommand) throws TaskManagerException {
         String description = fullCommand.substring("todo".length()).trim();
+        assert (("todo " + description).equals(fullCommand)) : "Something went wrong during the substring for todo description";
         if (description.isEmpty()) {
             throw new TaskManagerException("Empty description for TODO");
         } else {
@@ -29,10 +30,11 @@ public class Parser {
     public static Deadline createDeadLine(String fullCommand) throws TaskManagerException {
         int idxOfBy = fullCommand.indexOf("/by");
         if (idxOfBy < 0) {
-            throw new TaskManagerException("Empty description and deadline for DEADLINE");
+            throw new TaskManagerException("Deadline does not contain /by");
         }
 
         String description = fullCommand.substring(0, idxOfBy).substring("deadline".length()).trim();
+        assert (fullCommand.contains(description)) : "Something went wrong during the substring for deadline description";
         if (description.isEmpty() || description.equals("")) {
             throw new TaskManagerException("Empty description for DEADLINE");
         }

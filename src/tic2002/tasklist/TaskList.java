@@ -67,11 +67,4 @@ public class TaskList {
         int index = Integer.parseInt(fullCommand.substring("remove".length()).trim());
         tasks.remove(index - 1);
     }
-
-    public String modifyDescription(String newDescription) {
-        String oldDesc = "";
-
-        return oldDesc;
-    }
-
 }

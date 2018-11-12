@@ -111,7 +111,6 @@ public class TaskManager {
 
     public static void main(String[] args) {
         new TaskManager("data/tasks.txt").run();
-
     }
 
     public static void exit() {
